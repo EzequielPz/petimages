@@ -1,0 +1,36 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Aplica la fuente Roboto */
+  background-color: rgb(121, 191, 237);
+  text-align: center;
+  margin: 5px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1em;
+  grid-template-rows: auto; 
+  background-color: rgb(88, 146, 240);
+  margin: 10px;
+}
+
+.contenedor > div {
+  background-color: rgb(54, 51, 237);
+  color: rgb(158, 230, 239);
+  margin: 5px;
+  padding: 10px;
+  border: 5px solid rgb(6, 1, 247);
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.item img {
+  max-width: 100%; 
+  height: auto; 
+  transition: transform 0.3s; 
+}
+
+.item img:hover {
+  transform: scale(1.1); 
+}
